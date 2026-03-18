@@ -50,17 +50,17 @@ var config = {
             ]
         },
         {
-            id: 'second-identifier',
+            id: 'pipeline-overview',
             alignment: 'right',
-            hidden: false,
-            title: 'Washington, D.C.',
-            image: './assets/washington-dc.jpg',
-            description: 'The second chapter flies to Washington, D.C., updates the camera pitch, and slowly rotates. <br>  <br> Washington, D.C., the capital of the United States, is a vibrant city known for its iconic landmarks, including the White House, the U.S. Capitol, and the Washington Monument. It serves as the political heart of the nation and a center for history, culture, and international diplomacy.',
+            hidden: true,
+            title: 'The H2Med-pipeline',
+            // image: './assets/washington-dc.jpg',
+            // description: 'The second chapter flies to Washington, D.C., updates the camera pitch, and slowly rotates. <br>  <br> Washington, D.C., the capital of the United States, is a vibrant city known for its iconic landmarks, including the White House, the U.S. Capitol, and the Washington Monument. It serves as the political heart of the nation and a center for history, culture, and international diplomacy.',
             location: {
-                center: [-77.020636, 38.886900],
-                zoom: 8.5,
-                pitch: 60,
-                bearing: -43.2,
+                center: [0.43752, 44.83533],
+                zoom: 3.5,
+                pitch: 0,
+                bearing: 0,
                 // flyTo additional controls-
                 // These options control the flight curve, making it move
                 // slowly and zoom out almost completely before starting
