@@ -15,7 +15,7 @@ var config = {
     theme: 'dark',
     use3dTerrain: false, //set true for enabling 3D maps.
     auto: false,
-    title: 'Hydrogen hype',
+    title: 'Hydrogen hype?!',
     subtitle: 'Why the H2Med pipeline is not bringing clean and just futures.',
     byline: 'by kollektiv gazpacho',
     footer: 'Source: source citations, etc. <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
@@ -24,24 +24,23 @@ var config = {
             id: 'pipeline-intro',
             alignment: 'left',
             hidden: false,
-            title: 'Why the hydrogen hype?',
-            image: './assets/arcelor-mittal-surf.JPG',
-            description: 'Europe’s hydrogen strategy is driving major investments in pipelines, storage, and industrial hubs. Instead of local production and use, the focus lies on large-scale transport and export. Public funding heavily supports this expansion, mainly benefiting large energy companies. Many of these projects may prove unnecessary or inefficient, raising concerns that risks and costs will be socialized while profits remain private.',
+            title: 'May we introduce? The H2Med pipeline',
+            // image: './assets/arcelor-mittal-surf.JPG',
+            description: 'In the name of a green transition, Europe is building new energy corridors to secure its future. The H2Med pipeline promises to transport green hydrogen from southern Spain to central Europe, connecting regions through a shared infrastructure vision. Yet along its route, this vision is challenged by communities who question its impacts, its benefits, and its underlying assumptions. The pipeline’s journey reveals not just a technological project, but a struggle over competing imaginaries of the future.',
             location: {
-                center: [-3.5, 39.759483],
-                zoom: 7,
-                pitch: 60,
-                bearing: 0
+                center: [-5.86455, 40.70461],
+                zoom: 5.4,
+                pitch: 53,
+                bearing: 20.2
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 1,
-                //     duration: 5000
-                // }
+                 {
+                     layer: 'h2med-line',
+                     opacity: 1
+                 }
             ],
             onChapterExit: [
                 // {
