@@ -2,7 +2,7 @@ var config = {
     style: 'mapbox://styles/mapbox/satellite-v9',
     // leave commented to use Mapbox Standard Style
     accessToken: 'pk.eyJ1IjoiaGVpbGFuZG9vIiwiYSI6ImNtbXVwYXZhZTIxaGwycnIwdG9sYmNxeHMifQ.ypcTVPtTt_UV7j6MNaRYag',
-    showMarkers: true,
+    showMarkers: false,
     markerColor: '#3FB1CE',
     //projection: 'equirectangular',
     //Read more about available projections here
@@ -24,7 +24,7 @@ var config = {
             id: 'pipeline-intro',
             alignment: 'left',
             hidden: false,
-            title: 'May we introduce? The H2Med pipeline',
+            title: 'May we introduce? The H2Med pipeline!!',
             // image: './assets/arcelor-mittal-surf.JPG',
             description: 'In the name of a green transition, Europe is building new energy corridors to secure its future. The H2Med pipeline promises to transport green hydrogen from southern Spain to central Europe, connecting regions through a shared infrastructure vision. Yet along its route, this vision is challenged by communities who question its impacts, its benefits, and its underlying assumptions. The pipeline’s journey reveals not just a technological project, but a struggle over competing imaginaries of the future.',
             location: {
