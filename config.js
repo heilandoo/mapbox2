@@ -86,7 +86,7 @@ var config = {
         },
         {
             id: 'xixon',
-            alignment: 'left',
+            alignment: 'right',
             hidden: false,
             title: 'Port of Xixón',
             image: './assets/IMG_3135.JPG',
