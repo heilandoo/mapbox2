@@ -71,7 +71,12 @@ var config = {
             mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
-            onChapterEnter: [],
+            onChapterEnter: [
+                {
+                    layer: 'h2med-line',
+                    opacity: 1
+                }
+            ],
             onChapterExit: [
                 {
                     layer: 'h2med-line',
