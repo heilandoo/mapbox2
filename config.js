@@ -25,7 +25,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Why the hydrogen hype?',
-            image: 'assets/IMG_3116.JPG',
+            image: 'https://github.com/heilandoo/mapbox2/blob/main/assets/IMG_3116.JPG',
             description: 'Europe’s hydrogen strategy is driving major investments in pipelines, storage, and industrial hubs. Instead of local production and use, the focus lies on large-scale transport and export. Public funding heavily supports this expansion, mainly benefiting large energy companies. Many of these projects may prove unnecessary or inefficient, raising concerns that risks and costs will be socialized while profits remain private.',
             location: {
                 center: [-3.5, 39.759483],
