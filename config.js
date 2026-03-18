@@ -72,7 +72,12 @@ var config = {
             rotateAnimation: true,
             callback: '',
             onChapterEnter: [],
-            onChapterExit: []
+            onChapterExit: [
+                {
+                    layer: 'h2med-line',
+                    opacity: 0
+                }
+            ]
         },
         {
             id: 'third-identifier',
