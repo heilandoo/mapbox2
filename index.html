@@ -293,30 +293,12 @@
 
 
         map.on("load", function () {
-            if (config.use3dTerrain) {
-                map.addSource('mapbox-dem', {
-                    'type': 'raster-dem',
-                    'url': 'mapbox://mapbox.mapbox-terrain-dem-v1',
-                    'tileSize': 512,
-                    'maxzoom': 14
-                });
-                map.addSource('h2med-geodata', {
+            // load the geojson file that contains the pipeline coordinates into the site 
+            map.addSource('h2med-geodata', {
                     'type': 'geojson',
                     data : './data/h2med.geojson'
                 });
-                // add the DEM source as a terrain layer with exaggerated height
-                map.setTerrain({ 'source': 'mapbox-dem', 'exaggeration': 1.5 });
-
-                // add a sky layer that will show when the map is highly pitched
-                map.addLayer({
-                    'id': 'sky',
-                    'type': 'sky',
-                    'paint': {
-                        'sky-type': 'atmosphere',
-                        'sky-atmosphere-sun': [0.0, 0.0],
-                        'sky-atmosphere-sun-intensity': 15
-                    }
-                });
+                // add the pipeline as layer to the mapp
                 map.addLayer({
                     id: 'h2med-line',
                     type: 'line',
@@ -329,6 +311,28 @@
                         'line-color': '#2fb8ff',
                         'line-width': 4,
                         'line-opacity': 1
+                    }
+                });
+            
+            if (config.use3dTerrain) {
+                map.addSource('mapbox-dem', {
+                    'type': 'raster-dem',
+                    'url': 'mapbox://mapbox.mapbox-terrain-dem-v1',
+                    'tileSize': 512,
+                    'maxzoom': 14
+                });
+            
+                // add the DEM source as a terrain layer with exaggerated height
+                map.setTerrain({ 'source': 'mapbox-dem', 'exaggeration': 1.5 });
+
+                // add a sky layer that will show when the map is highly pitched
+                map.addLayer({
+                    'id': 'sky',
+                    'type': 'sky',
+                    'paint': {
+                        'sky-type': 'atmosphere',
+                        'sky-atmosphere-sun': [0.0, 0.0],
+                        'sky-atmosphere-sun-intensity': 15
                     }
                 });
             };
