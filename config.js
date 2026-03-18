@@ -85,17 +85,17 @@ var config = {
             ]
         },
         {
-            id: 'third-identifier',
+            id: 'xixon',
             alignment: 'left',
             hidden: false,
-            title: 'Geneva',
-            image: './assets/geneva.jpg',
-            description: 'Geneva, Switzerland, is a picturesque city nestled along the shores of Lake Geneva, surrounded by the Alps and Jura mountains. Known as a global hub for diplomacy and finance, it is home to numerous international organizations, including the United Nations and the Red Cross.',
+            title: 'Port of Xixón',
+            image: './assets/IMG_3135.JPG',
+            description: 'Even the very spirit of the hydrogen plan is problematic. Instead of focusing on hydrogen that is produced and used locally, close to where it is needed, the strategy once again prioritizes exports and the construction of large transport infrastructures. These projects include new pipelines, storage facilities, and other large-scale systems that mainly benefit major energy corporations, which are interested above all in expanding their own infrastructure networks. In many cases, these infrastructures may later turn out to be unnecessary or unjustified. Nevertheless, huge amounts of public money are already being invested in them. Ultimately, these costs will likely be passed on to energy consumers in each country. For these reasons, this approach is deeply concerning and difficult to justify.',
             location: {
-                center: [6.15116, 46.20595],
+                center: [-5.71677, 43.56260],
                 zoom: 12.52,
                 pitch: 8.01,
-                bearing: 0.00
+                bearing: 67.00
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
