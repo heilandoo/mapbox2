@@ -28,10 +28,10 @@ var config = {
             // image: './assets/arcelor-mittal-surf.JPG',
             description: 'In the name of a green transition, Europe is building new energy corridors to secure its future. The H2Med pipeline promises to transport green hydrogen from southern Spain to central Europe, connecting regions through a shared infrastructure vision. Yet along its route, this vision is challenged by communities who question its impacts, its benefits, and its underlying assumptions. The pipeline’s journey reveals not just a technological project, but a struggle over competing imaginaries of the future.',
             location: {
-                center: [-5.86455, 40.70461],
-                zoom: 5.4,
-                pitch: 53,
-                bearing: 20.2
+                center: [-5.59574, 42.50743],
+                zoom: 5,
+                pitch: 53.9,
+                bearing: 12.3
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
