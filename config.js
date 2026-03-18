@@ -38,7 +38,7 @@ var config = {
             callback: '',
             onChapterEnter: [
                  {
-                     layer: 'h2med-geodata',
+                     layer: 'h2med-line',
                      opacity: 1
                  }
             ],
