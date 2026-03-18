@@ -300,6 +300,10 @@
                     'tileSize': 512,
                     'maxzoom': 14
                 });
+                map.addSource('h2med-geodata', {
+                    'type': 'geojson',
+                    data : './data/h2med.geojson'
+                });
                 // add the DEM source as a terrain layer with exaggerated height
                 map.setTerrain({ 'source': 'mapbox-dem', 'exaggeration': 1.5 });
 
@@ -311,6 +315,20 @@
                         'sky-type': 'atmosphere',
                         'sky-atmosphere-sun': [0.0, 0.0],
                         'sky-atmosphere-sun-intensity': 15
+                    }
+                });
+                map.addLayer({
+                    id: 'h2med-line',
+                    type: 'line',
+                    source: 'h2med-geodata',
+                    layout: {
+                        'line-join': 'round',
+                        'line-cap': 'round'
+                    },
+                    paint: {
+                        'line-color': '#2fb8ff',
+                        'line-width': 4,
+                        'line-opacity': 1
                     }
                 });
             };
