@@ -21,15 +21,15 @@ var config = {
     footer: 'Source: source citations, etc. <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
     chapters: [
         {
-            id: 'slug-style-id',
+            id: 'pipeline-intro',
             alignment: 'left',
             hidden: false,
-            title: 'San Francisco',
-            image: './assets/san-fran.jpeg',
-            description: 'The first chapter contains a title, image, and camera view for San Francisco, California. Update the chapter data to make it your own.',
+            title: 'Why the hydrogen hype?',
+            image: './assets/IMG_3116.jpeg',
+            description: 'Europe’s hydrogen strategy is driving major investments in pipelines, storage, and industrial hubs. Instead of local production and use, the focus lies on large-scale transport and export. Public funding heavily supports this expansion, mainly benefiting large energy companies. Many of these projects may prove unnecessary or inefficient, raising concerns that risks and costs will be socialized while profits remain private.',
             location: {
-                center: [-122.418398, 37.759483],
-                zoom: 8.5,
+                center: [-3.5, 39.759483],
+                zoom: 7,
                 pitch: 60,
                 bearing: 0
             },
