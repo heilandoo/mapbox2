@@ -26,7 +26,7 @@ var config = {
             hidden: false,
             title: 'H2Med / extracting energy from south to north, powering a never ending growth paradigm',
             // image: './assets/arcelor-mittal-surf.JPG',
-            description: 'In the name of the 'green' transition, Europe is building new energy corridors from south to north. The oversized H2Med pipeline promises to transport vast amounts of green hydrogen from iberian peninsula to central-northern Europe. Yet along its route, this vision is challenged by communities who question its impacts, its benefits, and its underlying assumptions. The pipeline’s journey reveals not just a technological project, but a struggle over competing vision of the future.',
+            description: 'In the name of the "green" transition, Europe is building new energy corridors from south to north. The oversized H2Med pipeline promises to transport vast amounts of green hydrogen from iberian peninsula to central-northern Europe. Yet along its route, this vision is challenged by communities who question its impacts, its benefits, and its underlying assumptions. The pipeline’s journey reveals not just a technological project, but a struggle over competing vision of the future.',
             location: {
                 center: [-5.59574, 42.50743],
                 zoom: 5,
@@ -111,7 +111,7 @@ var config = {
             image: './assets/IMG_3135.JPG',
             description: 'Even the very spirit of the hydrogen plan is problematic. Instead of focusing on hydrogen that is produced and used locally, close to where it is needed, the strategy once again prioritizes exports and the construction of large transport infrastructures. These projects include new pipelines, storage facilities, and other large-scale systems that mainly benefit major energy corporations, which are interested above all in expanding their own infrastructure networks.',
             location: {
-                center: [43.56,-5.67537],
+                center: [-5.67537, 43.56],
                 zoom: 4,
                 pitch: 0,
                 bearing: 0
