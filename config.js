@@ -149,8 +149,8 @@ var config = {
             image: '',
             description: 'hydrogen can be smart to be used for decarbonisation of some specific, necessary energy sectors, but current plans are heavily oversized, hydrogen boom is powered by increasing militarisation and "green" military [Greening the armies](https://www.consilium.europa.eu/media/69640/art_greening_-armies_web.pdf)...',
             location: {
-                center: [5.67537, 43.56],
-                zoom: 4,
+                center: [6.71702, 51.48923],
+                zoom: 13.6,
                 pitch: 0,
                 bearing: 0
             },
@@ -168,10 +168,10 @@ var config = {
             image: '',
             description: 'description...',
             location: {
-                center: [-5.67537, 43.56],
-                zoom: 4,
-                pitch: 0,
-                bearing: 0
+                center: [-6.09843, 40.11613],
+                zoom: 11.8,
+                pitch: 58.5,
+                bearing: 30.3
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
@@ -187,10 +187,10 @@ var config = {
             image: '',
             description: 'description...',
             location: {
-                center: [-5.67537, 43.56],
-                zoom: 4,
-                pitch: 0,
-                bearing: 0
+                center: [-6.37464, 46.19577],
+                zoom: 4.4,
+                pitch: 44,
+                bearing: 67.26
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
@@ -206,10 +206,10 @@ var config = {
             image: '',
             description: 'description...',
             location: {
-                center: [-5.67537, 43.56],
-                zoom: 4,
-                pitch: 0,
-                bearing: 0
+                center: [2.85208, 58.61225],
+                zoom: 16.4,
+                pitch: 65,
+                bearing: -164.8
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
@@ -221,14 +221,14 @@ var config = {
             id: 'transition-fail2',
             alignment: 'left',
             hidden: false,
-            title: 'title',
+            title: 'The energy transition is failing.',
             image: '',
-            description: 'description...',
+            description: 'Activists argue that current legislations fail to keep pace with the rapid rollout of energy infrastructures, resulting in a transition that is neither properly regulated nor democratically governed. While activists demand a public debate on what the energy transition should look like, they observe the rapid future-making through the construction of energy infrastructure. All this without any serious debate on how the system should be designed and work in the future. A recurring critique by activists is that large-scale energy projects are being developed in a disordered and uncoordinated manner, without adequate spatial planning or strategic oversight by the state.',
             location: {
-                center: [-5.67537, 43.56],
-                zoom: 4,
+                center: [1, 55],
+                zoom: 0.7,
                 pitch: 0,
-                bearing: 0
+                bearing: 156
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
@@ -240,12 +240,12 @@ var config = {
             id: 'resistance-grow',
             alignment: 'left',
             hidden: false,
-            title: 'title',
+            title: 'Resistance is growing',
             image: '',
             description: 'description...',
             location: {
-                center: [-5.67537, 43.56],
-                zoom: 4,
+                center: [-7, 37.24286],
+                zoom: 11,
                 pitch: 0,
                 bearing: 0
             },
@@ -263,8 +263,8 @@ var config = {
             image: '',
             description: 'description...',
             location: {
-                center: [-5.67537, 43.56],
-                zoom: 4,
+                center: [-6.26011, 43.56791],
+                zoom: 12,
                 pitch: 0,
                 bearing: 0
             },
