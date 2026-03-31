@@ -15,8 +15,8 @@ var config = {
     theme: 'dark',
     use3dTerrain: false, //set true for enabling 3D maps.
     auto: false,
-    title: 'Hydrogen hype?!',
-    subtitle: 'Why the H2Med pipeline is not bringing clean and just futures.',
+    title: 'Stories of resistance along the H2Med pipeline',
+    subtitle: 'Why communities are resisting, what they think of the future of energy, how they percieve the impacts.',
     byline: 'by kollektiv gazpacho',
     footer: 'Source: source citations, etc. <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
     chapters: [
@@ -24,9 +24,9 @@ var config = {
             id: 'pipeline-intro',
             alignment: 'left',
             hidden: false,
-            title: 'May we introduce? The H2Med pipeline!!',
+            title: 'H2Med / extracting energy from south to north, powering a never ending growth paradigm',
             // image: './assets/arcelor-mittal-surf.JPG',
-            description: 'In the name of a green transition, Europe is building new energy corridors to secure its future. The H2Med pipeline promises to transport green hydrogen from southern Spain to central Europe, connecting regions through a shared infrastructure vision. Yet along its route, this vision is challenged by communities who question its impacts, its benefits, and its underlying assumptions. The pipeline’s journey reveals not just a technological project, but a struggle over competing imaginaries of the future.',
+            description: 'In the name of the 'green' transition, Europe is building new energy corridors from south to north. The oversized H2Med pipeline promises to transport vast amounts of green hydrogen from iberian peninsula to central-northern Europe. Yet along its route, this vision is challenged by communities who question its impacts, its benefits, and its underlying assumptions. The pipeline’s journey reveals not just a technological project, but a struggle over competing vision of the future.',
             location: {
                 center: [-5.59574, 42.50743],
                 zoom: 5,
@@ -50,7 +50,7 @@ var config = {
             ]
         },
         {
-            id: 'pipeline-overview',
+            id: 'hydrogen-overview',
             alignment: 'right',
             hidden: true,
             title: 'The H2Med-pipeline',
@@ -85,7 +85,7 @@ var config = {
             ]
         },
         {
-            id: 'xixon',
+            id: 'hydrogen-overviewmap',
             alignment: 'right',
             hidden: false,
             title: 'Port of Xixón',
@@ -104,14 +104,14 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'fourth-chapter',
-            alignment: 'fully',
+            id: 'pipeline-xixon',
+            alignment: 'left',
             hidden: false,
-            title: 'Buenos Aires',
-            image: './assets/buenos-aires.jpg',
-            description: 'Buenos Aires, the capital of Argentina, is a dynamic city known for its European-inspired architecture, vibrant tango culture, and rich culinary scene. Often called the "Paris of South America," it blends historic charm with modern energy.  You can add as many chapters as you need, just copy the JSON data and make changes.',
+            title: 'In the port of Xixón, Asturias',
+            image: './assets/IMG_3135.JPG',
+            description: '"Even the very spirit of the hydrogen plan is problematic. Instead of focusing on hydrogen that is produced and used locally, close to where it is needed, the strategy once again prioritizes exports and the construction of large transport infrastructures. These projects include new pipelines, storage facilities, and other large-scale systems that mainly benefit major energy corporations, which are interested above all in expanding their own infrastructure networks.',
             location: {
-                center: [-58.54195, -34.71600],
+                center: [43.56,-5.67537],
                 zoom: 4,
                 pitch: 0,
                 bearing: 0
