@@ -51,7 +51,7 @@ var config = {
         },
         {
             id: 'hydrogen-overview',
-            alignment: 'centre',
+            alignment: 'center',
             hidden: false,
             title: 'The H2Med pipeline',
             // image: './assets/washington-dc.jpg',
@@ -75,15 +75,15 @@ var config = {
                 {
                     layer: 'h2med-line',
                     opacity: 1,
-                    color: 'd5e461ff'
+                    colour: 'd5e461'
                 }
             ],
-            onChapterExit: [
-                {
-                    layer: 'h2med-line',
-                    opacity: 0
-                }
-            ]
+//            onChapterExit: [
+//                {
+//                    layer: 'h2med-line',
+//                    opacity: 0
+//                }
+//            ]
         },
         {
             id: 'hydrogen-overviewmap',
