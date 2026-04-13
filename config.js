@@ -24,14 +24,14 @@ var config = {
             id: 'pipeline-intro',
             alignment: 'left',
             hidden: false,
-            title: 'Extracting energy from south to north, powering a never ending growth paradigm',
+            title: 'The planned hydrogen pipeline network',
             // image: './assets/arcelor-mittal-surf.JPG',
             description: 'In the name of the "green" transition, Europe is building new energy corridors from south to north. The oversized H2Med pipeline promises to transport vast amounts of green hydrogen from iberian peninsula to central-northern Europe. Yet along its route, this vision is challenged by communities who question its impacts, its benefits, and its underlying assumptions. The pipeline’s journey reveals not just a technological project, but a struggle over competing vision of the future.',
             location: {
-                center: [-5.59574, 42.50743],
-                zoom: 5,
-                pitch: 53.9,
-                bearing: 12.3
+                center: [-1.76191, 46.59491],
+                zoom: 4,
+                pitch: 37.5,
+                bearing: 2.3
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
@@ -51,14 +51,14 @@ var config = {
         },
         {
             id: 'hydrogen-overview',
-            alignment: 'right',
-            hidden: true,
+            alignment: 'centre',
+            hidden: false,
             title: 'The H2Med pipeline',
             // image: './assets/washington-dc.jpg',
             // description: 'The second chapter flies to Washington, D.C., updates the camera pitch, and slowly rotates. <br>  <br> Washington, D.C., the capital of the United States, is a vibrant city known for its iconic landmarks, including the White House, the U.S. Capitol, and the Washington Monument. It serves as the political heart of the nation and a center for history, culture, and international diplomacy.',
             location: {
-                center: [-2.813, 45.916],
-                zoom: 3.9,
+                center: [-0.73215, 40.29260],
+                zoom: 5,
                 pitch: 0,
                 bearing: 0
                 // flyTo additional controls-
@@ -74,7 +74,8 @@ var config = {
             onChapterEnter: [
                 {
                     layer: 'h2med-line',
-                    opacity: 1
+                    opacity: 1,
+                    color: 'd5e461ff'
                 }
             ],
             onChapterExit: [
