@@ -177,6 +177,20 @@
                 }
                 map.setPaintProperty(layer.layer, prop, layer.opacity, options);
             });
+
+                if (layer.color) {
+                var layerType = map.getLayer(layer.layer).type;
+        
+                if (layerType === 'line') {
+                    map.setPaintProperty(layer.layer, 'line-color', layer.color);
+                }
+                if (layerType === 'fill') {
+                    map.setPaintProperty(layer.layer, 'fill-color', layer.color);
+                }
+                if (layerType === 'circle') {
+                    map.setPaintProperty(layer.layer, 'circle-color', layer.color);
+                }
+            }
         }
 
         var story = document.getElementById('story');
