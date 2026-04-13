@@ -39,7 +39,7 @@ var config = {
             onChapterEnter: [
                  {
                      layer: 'h2med-line',
-                     opacity: 1
+                     opacity: 0
                  }
             ],
             onChapterExit: [
