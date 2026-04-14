@@ -26,7 +26,7 @@ var config = {
             hidden: false,
             title: 'The planned hydrogen pipeline network',
             // image: './assets/arcelor-mittal-surf.JPG',
-            description: 'Europe is planning a big network of pipelines to transport hydrogen and fossil gas. The majority of the hydrogen transported is supposed to come from northern Africa and left behind areas in the south of Europe. "Green" hydrogen is widely considered as "sustainable" solution for infinite industrial economic growth without CO2 emissions and one-size-fits-it-all-solution for the climate crisis we are in. However, along the pipelines, communities question this story, suffering from the impacts on people and land. They are building their own futures in resistance to this mega energy infrastructure.',
+            description: 'Europe is planning a big network of pipelines to transport hydrogen and fossil gas. The majority of the hydrogen transported is supposed to come from northern Africa and rural areas in the south of Europe. "Green" hydrogen is widely considered as "sustainable" solution for infinite industrial economic growth without CO2 emissions and one-size-fits-it-all-solution for the climate crisis we are in. However, along the pipelines, communities question this story, suffering from the impacts on people and land. They are building their own futures in resistance to this mega energy infrastructure.',
             location: {
                 center: [0, 43.5],
                 zoom: 4.5,
