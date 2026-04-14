@@ -201,7 +201,7 @@ var config = {
         },
         {
             id: 'resistance-grow',
-            alignment: 'left',
+            alignment: 'right',
             hidden: false,
             title: 'Resistance along the pipeline grows',
             image: '',
@@ -220,7 +220,7 @@ var config = {
         },
         {
             id: 'alternatives-exist',
-            alignment: 'left',
+            alignment: 'center',
             hidden: false,
             title: 'Alternatives to this mess exist',
             image: '',
