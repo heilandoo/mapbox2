@@ -94,13 +94,14 @@
 
         .dark {
             color: #fafafa;
-            background-color: #444;
+            background-color: #3a2c67;
         }
 
         .step {
-            padding-bottom: 50vh;
-            /* margin-bottom: 10vh; */
-            opacity: 0.25;
+            padding: 30px;
+            line-height: 1.7;
+            font-size: 15px;
+            border-radius: 4px;
         }
 
         .step.active {
@@ -180,7 +181,7 @@
 
                 if (layer.color) {
                 var layerType = map.getLayer(layer.layer).type;
-        
+
                 if (layerType === 'line') {
                     map.setPaintProperty(layer.layer, 'line-color', layer.color);
                 }
@@ -307,7 +308,7 @@
 
 
         map.on("load", function () {
-            // load the geojson file that contains the pipeline coordinates into the site 
+            // load the geojson file that contains the pipeline coordinates into the site
             map.addSource('h2med-geodata', {
                     'type': 'geojson',
                     data : './data/h2med.geojson'
@@ -327,7 +328,7 @@
                         'line-opacity': 1
                     }
                 });
-            
+
             if (config.use3dTerrain) {
                 map.addSource('mapbox-dem', {
                     'type': 'raster-dem',
@@ -335,7 +336,7 @@
                     'tileSize': 512,
                     'maxzoom': 14
                 });
-            
+
                 // add the DEM source as a terrain layer with exaggerated height
                 map.setTerrain({ 'source': 'mapbox-dem', 'exaggeration': 1.5 });
 
@@ -403,7 +404,7 @@
             if (config.auto) {
                 document.querySelectorAll('[data-scrollama-index="0"]')[0].scrollIntoView();
             }
-        });    
+        });
 
     </script>
 
