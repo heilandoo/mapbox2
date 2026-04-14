@@ -26,12 +26,12 @@ var config = {
             hidden: false,
             title: 'The planned hydrogen pipeline network',
             // image: './assets/arcelor-mittal-surf.JPG',
-            description: 'In the name of the "green" transition, Europe is building new energy corridors from south to north. The oversized H2Med pipeline promises to transport vast amounts of green hydrogen from iberian peninsula to central-northern Europe. Yet along its route, this vision is challenged by communities who question its impacts, its benefits, and its underlying assumptions. The pipeline’s journey reveals not just a technological project, but a struggle over competing vision of the future.',
+            description: 'Europe is planning a big network of pipelines to transport hydrogen and fossil gas. The majority of the hydrogen transported is supposed to come from northern Africa and left behind areas in the south of Europe. "Green" hydrogen is widely considered as "sustainable" solution for infinite industrial economic growth without CO2 emissions and one-size-fits-it-all-solution for the climate crisis we are in. However, along the pipelines, communities question this story, suffering from the impacts on people and land. They are building their own futures in resistance to this mega energy infrastructure.',
             location: {
-                center: [-1.76191, 46.59491],
-                zoom: 4,
-                pitch: 37.5,
-                bearing: 2.3
+                center: [0, 43.5],
+                zoom: 4.5,
+                pitch: 0,
+                bearing: 0
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
@@ -39,7 +39,7 @@ var config = {
             onChapterEnter: [
                  {
                      layer: 'h2med-line',
-                     opacity: 0
+                     opacity: 1
                  }
             ],
             onChapterExit: [
@@ -50,15 +50,15 @@ var config = {
             ]
         },
         {
-            id: 'hydrogen-overview',
-            alignment: 'center',
+            id: 'h2med-intro',
+            alignment: 'right',
             hidden: false,
             title: 'The H2Med pipeline',
             // image: './assets/washington-dc.jpg',
-            // description: 'The second chapter flies to Washington, D.C., updates the camera pitch, and slowly rotates. <br>  <br> Washington, D.C., the capital of the United States, is a vibrant city known for its iconic landmarks, including the White House, the U.S. Capitol, and the Washington Monument. It serves as the political heart of the nation and a center for history, culture, and international diplomacy.',
+            description: 'The planned H2Med pipeline is supposed to transport energy from the Iberian Peninsula to Western Germany. In the name of the "green" transition the pipeline should export large amounts of hydrogen over more then 2000km. But this mega-infrastructure cannot fulfill the promises that are made. What the situation looks like: <br>large-scale energy export is prioritised over efficient local use tied to necessity, <br>industrial hydrogen production increases conflict over land-use, water resources and renewable energy, <br>hydrogen allows the fossil industry to prolong their business with fossil fuels through mixing both gases <br>This map tells stories of people and collectives who resist. They resist by debunking the myths, sabotaging the pipelines, and building alternative futures. Scroll down and follow along!',
             location: {
-                center: [-0.73215, 40.29260],
-                zoom: 5,
+                center: [-2.59037, 40.3784],
+                zoom: 5.7,
                 pitch: 0,
                 bearing: 0
                 // flyTo additional controls-
@@ -86,31 +86,12 @@ var config = {
 //            ]
         },
         {
-            id: 'hydrogen-overviewmap',
-            alignment: 'right',
-            hidden: true,
-            title: '',
-            image: '',
-            description: '',
-            location: {
-                center: [-2.813, 45.916],
-                zoom: 3.9,
-                pitch: 0,
-                bearing: 0
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-        },
-        {
             id: 'pipeline-xixon',
             alignment: 'left',
             hidden: false,
-            title: 'In the port of Xixón, Asturias',
+            title: 'Export over local use',
             image: './assets/IMG_3135.JPG',
-            description: 'Even the very spirit of the hydrogen plan is problematic. Instead of focusing on hydrogen that is produced and used locally, close to where it is needed, the strategy once again prioritizes exports and the construction of large transport infrastructures. These projects include new pipelines, storage facilities, and other large-scale systems that mainly benefit major energy corporations, which are interested above all in expanding their own infrastructure networks.',
+            description: 'We met Paco in port of Xixón. Here, two pipelines of the network meet, a hydrogen storage is planned and an LNG-terminal for shipping gas exists. Paco from Ecoloxistes n’Aición d’Asturies criticises the oversized infrastructure for gas export here and all over the Iberian Peninsula. While locally produced hydrogen can be useful way to power heavy industries, the current development is pointing in the very opposite direction. This system does not rely on "hydrogen that is produced and used locally, close to where it is needed", it "mainly benefits major energy corporations, which are interested above all in expanding their own infrastructure networks", Paco says.',
             location: {
               center: [-5.71677, 43.56260],
               zoom: 12.52,
@@ -124,17 +105,17 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'pipeline-impact',
+            id: 'transition-fail1',
             alignment: 'right',
             hidden: false,
-            title: 'title',
+            title: '"It is not enough to produce more energy, we need more efficient systems that need less energy."',
             image: '',
-            description: 'description...',
+            description: 'Julio feels the current transition leaves behind rural communities in the peripheries and only prioritises the industrial and urban centres and their ever increasing hunger for energy. We met the collective of SOS Montes Torozos in La Mudarra, a village next two a huge substation with the same name. Substations are central nodes for the energy transition. Their location and connectivity to the grid has a huge impact on where power generators, powering hydrogen production, are built. And these nodes already exist based on the old energy system of fossil energy, hydro- and nuclear power. Thus, hydrogen production infrastructure uses the existing network, reinforcing spatial patterns of injustice, leaving behind rural areas.',
             location: {
-                center: [-5.6739, 41.3394],
-                zoom: 15.5,
-                pitch: 61,
-                bearing: 70
+                center: [-4.93758, 41.78880],
+                zoom: 13.5,
+                pitch: 52,
+                bearing: 52
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
@@ -143,17 +124,17 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'hydrogen-use',
-            alignment: 'left',
+            id: 'pipeline-impact',
+            alignment: 'center',
             hidden: false,
-            title: 'Green growth for northern Europe?',
+            title: 'Energy export over food production',
             image: '',
-            description: 'hydrogen can be smart to be used for decarbonisation of some specific, necessary energy sectors, but current plans are heavily oversized, hydrogen boom is powered by increasing militarisation and "green" military [Greening the armies](https://www.consilium.europa.eu/media/69640/art_greening_-armies_web.pdf)...',
+            description: 'Jenaro is one of the few young people who returned to his village in "España vacía" (Empty Spain). After leaving his place to study in bigger cities, he now works with his home soils to grow food, produce some wine and keep the rural style of living alive. But a fossil gas pipeline already passes right below his village and the H2Med might follow soon. And with it plans to industrially produce natural gas and hydrogen in places where he now produces food for industries thousands of kilometers away. Listen to his emotional testimony and how he organises against biogas in the province of Zamora!',
             location: {
-                center: [6.71702, 51.48923],
-                zoom: 13.6,
-                pitch: 0,
-                bearing: 0
+                center: [-5.70679, 41.34235],
+                zoom: 13,
+                pitch: 30,
+                bearing: 20
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
@@ -165,14 +146,14 @@ var config = {
             id: 'hydrogen-colonialism1',
             alignment: 'left',
             hidden: false,
-            title: 'title',
+            title: "Energy colonialism at Europe's edges",
             image: '',
-            description: 'description...',
+            description: 'Julio denounces energy colonialism in the peripheral regions of Europe. With Ecologistas en Acción Extremadura he says: "We produce energy for industrial centres all over Europe to power their economic growth. This is not new. We already had hydropower as the first wave of energy colonialism and nuclear power as the second wave." Conditions are different than in the Global South, he acknowledges, but processes and structures are the same.',
             location: {
-                center: [-6.09843, 40.11613],
-                zoom: 11.8,
-                pitch: 58.5,
-                bearing: 30.3
+              center: [0, 43.5],
+              zoom: 4.5,
+              pitch: 0,
+              bearing: 0
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
@@ -184,7 +165,7 @@ var config = {
             id: 'hydrogen-colonialism2',
             alignment: 'left',
             hidden: false,
-            title: 'title',
+            title: 'Energy colonialism in Extremadura comes in waves. In the 1960s, large reservoirs were built along the Tagus River, officially for irrigation but mainly to generate hydropower. This was the first wave, with energy produced in the region and sent elsewhere. Then came the second. Under the Franco dictatorship, two nuclear reactors were built in Extremadura, with around 2000 megawatts of capacity. Again, energy was exported while the risks stayed local. Today, Extremadura produces far more energy than it consumes, yet remains economically marginalized. The pattern is clear: the region powers others, while the benefits leave and the costs remain.',
             image: '',
             description: 'description...',
             location: {
@@ -200,36 +181,17 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'transition-fail1',
+            id: 'hydrogen-use',
             alignment: 'left',
             hidden: false,
-            title: 'title',
+            title: 'ThyssenKrupp steel and weapon manufacturing, Duisburg, Western Germany',
             image: '',
-            description: 'description...',
+            description: 'Hydrogen from the south is not just about climate goals. It is set to flow north into industrial hubs like Duisburg, where companies like ThyssenKrupp plan to use it to decarbonise steel production. While this may reduce emissions, it also sustains energy-intensive industries that depend on continuous growth. We need some steel for public infrastructure or hospitals. But at the same time, steel remains a key material for automotive production, and military equipment. As Europe increases military spending, hydrogen-fueled steel production is becoming part of a broader push to secure resources for rearmament. <br>Hydrogen can play a role in decarbonising essential sectors. But current plans go far beyond that. The scale of proposed infrastructure reflects not just climate ambitions, but also industrial expansion and growing militarisation under the label of a “green” transition.',
             location: {
-                center: [2.85208, 58.61225],
-                zoom: 16.4,
-                pitch: 65,
-                bearing: -164.8
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-        },
-        {
-            id: 'transition-fail2',
-            alignment: 'left',
-            hidden: false,
-            title: 'The energy transition is failing.',
-            image: '',
-            description: 'Activists argue that current legislations fail to keep pace with the rapid rollout of energy infrastructures, resulting in a transition that is neither properly regulated nor democratically governed. While activists demand a public debate on what the energy transition should look like, they observe the rapid future-making through the construction of energy infrastructure. All this without any serious debate on how the system should be designed and work in the future. A recurring critique by activists is that large-scale energy projects are being developed in a disordered and uncoordinated manner, without adequate spatial planning or strategic oversight by the state.',
-            location: {
-                center: [1, 55],
-                zoom: 0.7,
-                pitch: 0,
-                bearing: 156
+                center: [6.69502, 51.49364],
+                zoom: 12.7,
+                pitch: 33,
+                bearing: 0
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
@@ -241,14 +203,14 @@ var config = {
             id: 'resistance-grow',
             alignment: 'left',
             hidden: false,
-            title: 'Resistance is growing',
+            title: 'Resistance along the pipeline grows',
             image: '',
-            description: 'description...',
+            description: "Along the pipeline, communities resist these energy colonial processes. They don't want to be a self-service store for Europe, they don't want a pipeline labelled as green while most of what runs through it, is fossil fuels. They are in favor of a transition towards renewable energy sources. But they demand that this transition keeps in mind the needs of rural populations and is not only governed by the fossil industry to keep up a business model that ruins people and planet.",
             location: {
-                center: [-7, 37.24286],
-                zoom: 11,
-                pitch: 0,
-                bearing: 0
+              center: [-2.59037, 40.3784],
+              zoom: 5.7,
+              pitch: 0,
+              bearing: 0
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
@@ -260,9 +222,9 @@ var config = {
             id: 'alternatives-exist',
             alignment: 'left',
             hidden: false,
-            title: 'title',
+            title: 'Alternatives to this mess exist',
             image: '',
-            description: 'description...',
+            description: "What kind of energy transition do we want? We want an energy transition that is more social, fairer and more in line with people's needs. Or do we really want a transition that is based on large companies' interests their desires and their needs, which aren't ours at all? <br>'The solutions we see are energy communities. But right now, much of our work is about defending territory, because there are so many projects we need to stop. It is frustrating that so much of our energy in activism goes into resisting these developments, when we could actually be building the futures we want. That creates a lot of anger. But at the same time, I still think there is hope.'",
             location: {
                 center: [-6.26011, 43.56791],
                 zoom: 12,
