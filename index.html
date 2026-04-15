@@ -312,25 +312,136 @@
 
         map.on("load", function () {
             // load the geojson file that contains the pipeline coordinates into the site
+            map.addSource('BarMar', {
+                    'type': 'geojson',
+                    data : './data/BarMar.geojson'
+            });
+            map.addSource('FraGer', {
+                    'type': 'geojson',
+                    data : './data/FraGer-connector-north.geojson'
+            });
+            map.addSource('FraSide', {
+                    'type': 'geojson',
+                    data : './data/france_side-axis.geojson'
+            });
+            map.addSource('IberSide', {
+                    'type': 'geojson',
+                    data : './data/iberian_peninsula-side_axis.geojson'
+            });
+            map.addSource('SHB_core', {
+                    'type': 'geojson',
+                    data : './data/SHB_core.geojson'
+            });
+            map.addSource('HuelvaXixon', {
+                    'type': 'geojson',
+                    data : './data/SHB_HueXi.geojson'
+            });
             map.addSource('h2med-geodata', {
                     'type': 'geojson',
                     data : './data/h2med.geojson'
-                });
+            });
+
+
                 // add the pipeline as layer to the mapp
-                map.addLayer({
-                    id: 'h2med-line',
-                    type: 'line',
-                    source: 'h2med-geodata',
-                    layout: {
-                        'line-join': 'round',
-                        'line-cap': 'round'
-                    },
-                    paint: {
-                        'line-color': '#2fb8ff',
-                        'line-width': 4,
-                        'line-opacity': 1
-                    }
-                });
+            map.addLayer({
+                id: 'h2med-line',
+                type: 'line',
+                source: 'h2med-geodata',
+                layout: {
+                    'line-join': 'round',
+                    'line-cap': 'round'
+                },
+                paint: {
+                    'line-color': '#2fb8ff',
+                    'line-width': 4,
+                    'line-opacity': 1
+                }
+            });
+            map.addLayer({
+                id: 'BarMar',
+                type: 'line',
+                source: 'h2med-geodata',
+                layout: {
+                    'line-join': 'round',
+                    'line-cap': 'round'
+                },
+                paint: {
+                    'line-color': '#2fb8ff',
+                    'line-width': 4,
+                    'line-opacity': 1
+                }
+            });
+            map.addLayer({
+                id: 'FraGer',
+                type: 'line',
+                source: 'h2med-geodata',
+                layout: {
+                    'line-join': 'round',
+                    'line-cap': 'round'
+                },
+                paint: {
+                    'line-color': '#2fb8ff',
+                    'line-width': 4,
+                    'line-opacity': 1
+                }
+            });
+            map.addLayer({
+                id: 'FraSide',
+                type: 'line',
+                source: 'h2med-geodata',
+                layout: {
+                    'line-join': 'round',
+                    'line-cap': 'round'
+                },
+                paint: {
+                    'line-color': '#2fb8ff',
+                    'line-width': 2,
+                    'line-opacity': 1
+                }
+            });
+            map.addLayer({
+                id: 'IberSide',
+                type: 'line',
+                source: 'h2med-geodata',
+                layout: {
+                    'line-join': 'round',
+                    'line-cap': 'round'
+                },
+                paint: {
+                    'line-color': '#2fb8ff',
+                    'line-width': 2,
+                    'line-opacity': 1
+                }
+            });
+            map.addLayer({
+                id: 'SHB_core',
+                type: 'line',
+                source: 'h2med-geodata',
+                layout: {
+                    'line-join': 'round',
+                    'line-cap': 'round'
+                },
+                paint: {
+                    'line-color': '#2fb8ff',
+                    'line-width': 4,
+                    'line-opacity': 1
+                }
+            });
+            map.addLayer({
+                id: 'HuelvaXixon',
+                type: 'line',
+                source: 'h2med-geodata',
+                layout: {
+                    'line-join': 'round',
+                    'line-cap': 'round'
+                },
+                paint: {
+                    'line-color': '#2fb8ff',
+                    'line-width': 8,
+                    'line-opacity': 1
+                }
+            });
+
 
             if (config.use3dTerrain) {
                 map.addSource('mapbox-dem', {
