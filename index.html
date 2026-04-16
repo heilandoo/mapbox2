@@ -340,6 +340,10 @@
                     'type': 'geojson',
                     data : './data/SoutH2Link_complete.geojson'
             });
+            map.addSource('LaMudarraLines', {
+                    'type': 'geojson',
+                    data : './data/la_mudarra-power_lines.geojson'
+            });
             
                 // add the pipeline as layer to the mapp
 
@@ -438,6 +442,20 @@
                 paint: {
                     'line-color': '#d5e461',
                     'line-width': 4,
+                    'line-opacity': 1
+                }
+            });
+            map.addLayer({
+                id: 'LaMudarraLines',
+                type: 'line',
+                source: 'LaMudarraLines',
+                layout: {
+                    'line-join': 'round',
+                    'line-cap': 'round'
+                },
+                paint: {
+                    'line-color': '#d5e461',
+                    'line-width': 1,
                     'line-opacity': 1
                 }
             });
