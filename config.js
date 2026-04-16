@@ -1,9 +1,9 @@
 var config = {
     style: 'mapbox://styles/heilandoo/cmo1a87xf006b01s6bxexf40a',    // leave commented to use Mapbox Standard Style
-    accessToken: 'pk.eyJ1IjoiaGVpbGFuZG9vIiwiYSI6ImNtbXVwYXZhZTIxaGwycnIwdG9sYmNxeHMifQ.ypcTVPtTt_UV7j6MNaRYag',
+    accessToken: 'pk.eyJ1IjoiaGVpbGFuZG9vIiwiYSI6ImNrYWM1eDA3aDE4dnIzMnM5Mm1hOHhrdzUifQ.oBXUToa-aVWySICZ5LeCVg',
     showMarkers: false,
     markerColor: '#3FB1CE',
-    projection: 'equirectangular',
+    //projection: 'equirectangular',
     //Read more about available projections here
     //https://docs.mapbox.com/mapbox-gl-js/example/projections/
     inset: true,
