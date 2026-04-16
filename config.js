@@ -35,12 +35,7 @@ var config = {
             mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
-            onChapterEnter: [
-                 {
-                     layer: 'h2med-line',
-                     opacity: 0
-                 }
-            ],
+            onChapterEnter: [],
             onChapterExit: [
                 // {
                 //     layer: 'layer-name',
@@ -70,13 +65,7 @@ var config = {
             mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
-            onChapterEnter: [
-                {
-                    layer: 'h2med-line',
-                    opacity: 1,
-                    color: '#d5e461'
-                }
-            ],
+            onChapterEnter: [],
 //            onChapterExit: [
 //                {
 //                    layer: 'h2med-line',
