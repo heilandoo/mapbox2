@@ -1,9 +1,9 @@
 var config = {
-    style: 'mapbox://styles/mapbox/satellite-v9',    // leave commented to use Mapbox Standard Style
+    style: 'mapbox://styles/heilandoo/cmnyrvl9y001m01s9hy9ldl2s',    // leave commented to use Mapbox Standard Style
     accessToken: 'pk.eyJ1IjoiaGVpbGFuZG9vIiwiYSI6ImNtbXVwYXZhZTIxaGwycnIwdG9sYmNxeHMifQ.ypcTVPtTt_UV7j6MNaRYag',
     showMarkers: false,
     markerColor: '#3FB1CE',
-    //projection: 'equirectangular',
+    projection: 'equirectangular',
     //Read more about available projections here
     //https://docs.mapbox.com/mapbox-gl-js/example/projections/
     inset: true,
