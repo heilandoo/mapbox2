@@ -1,5 +1,5 @@
 var config = {
-    style: 'mapbox://styles/heilandoo/cmo1a87xf006b01s6bxexf40a',    // leave commented to use Mapbox Standard Style
+    style: 'mapbox://styles/heilandoo/cmo1a4fnn00ye01s98yq00bik',    // leave commented to use Mapbox Standard Style
     accessToken: 'pk.eyJ1IjoiaGVpbGFuZG9vIiwiYSI6ImNrYWM1eDA3aDE4dnIzMnM5Mm1hOHhrdzUifQ.oBXUToa-aVWySICZ5LeCVg',
     showMarkers: false,
     markerColor: '#3FB1CE',
