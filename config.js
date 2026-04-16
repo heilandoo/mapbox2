@@ -74,7 +74,7 @@ var config = {
                 {
                     layer: 'h2med-line',
                     opacity: 1,
-                    colour: 'd5e461'
+                    color: '#d5e461'
                 }
             ],
 //            onChapterExit: [
