@@ -3,7 +3,7 @@ var config = {
     accessToken: 'pk.eyJ1IjoiaGVpbGFuZG9vIiwiYSI6ImNrYWM1eDA3aDE4dnIzMnM5Mm1hOHhrdzUifQ.oBXUToa-aVWySICZ5LeCVg',
     showMarkers: false,
     markerColor: '#3FB1CE',
-    //projection: 'equirectangular',
+    projection: 'mercator',
     //Read more about available projections here
     //https://docs.mapbox.com/mapbox-gl-js/example/projections/
     inset: true,
