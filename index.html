@@ -311,6 +311,10 @@
 
 
         map.on("load", function () {
+            map.loadImage('./assets/storymap-point-symbol.png', (error, image) => {
+                if (error) throw error;
+        map.addImage('custom-marker', image);
+
             // load the geojson file that contains the pipeline coordinates into the site
             map.addSource('BarMar', {
                     'type': 'geojson',
@@ -344,9 +348,23 @@
                     'type': 'geojson',
                     data : './data/la_mudarra-power_lines.geojson'
             });
+            map.addSource('PointResist', {
+                    'type': 'geojson',
+                    data : './data/points-of-resistance.geojson'
+            });
+            
             
                 // add the pipeline as layer to the mapp
-
+            map.addLayer({
+                id: 'PointResist',
+                type: 'symbol',
+                source: 'PointResist',
+                layout: {
+                    'icon-image': 'custom-marker',
+                    'icon-size': 0.8,
+                    'icon-anchor': 'bottom'
+                }
+            });
             map.addLayer({
                 id: 'BarMar',
                 type: 'line',
@@ -452,6 +470,21 @@
                 layout: {
                     'line-join': 'round',
                     'line-cap': 'round'
+                },
+                paint: {
+                    'line-color': '#d5e461',
+                    'line-width': 1,
+                    'line-opacity': 0
+                }
+            });
+            map.addLayer({
+                id: 'PointResist',
+                type: 'symbol    ',
+                source: 'PointResist',
+                layout: {
+                    'circle-radius': 6,
+                    'circle-color': '#d5e461',
+                    'circle-opacity': 0
                 },
                 paint: {
                     'line-color': '#d5e461',
