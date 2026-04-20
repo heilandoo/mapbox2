@@ -69,14 +69,18 @@ var config = {
                 {
                      layer: 'HuelvaXixon',
                      opacity: 1
+                },
+                {
+                    layer: 'PointResist',
+                    opacity: 1
                 }
             ],
-//            onChapterExit: [
-//                {
-//                    layer: 'h2med-line',
-//                    opacity: 0
-//                }
-//            ]
+            onChapterExit: [
+                {
+                    layer: 'PointResist',
+                    opacity: 0
+                }
+            ]
         },
         {
             id: 'pipeline-xixon',
