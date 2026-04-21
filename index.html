@@ -311,10 +311,6 @@
 
 
         map.on("load", function () {
-            map.loadImage('./assets/storymap-point-symbol.png', (error, image) => {
-                if (error) throw error;
-            map.addImage('custom-marker', image);
-            });
             // load the geojson file that contains the pipeline coordinates into the site
             map.addSource('BarMar', {
                     'type': 'geojson',
@@ -354,17 +350,7 @@
             });
             
             
-                // add the pipeline as layer to the mapp
-            map.addLayer({
-                id: 'PointResist',
-                type: 'symbol',
-                source: 'PointResist',
-                layout: {
-                    'icon-image': 'custom-marker',
-                    'icon-size': 0.8,
-                    'icon-anchor': 'bottom'
-                }
-            });
+                // add the pipeline as layer to the map
             map.addLayer({
                 id: 'BarMar',
                 type: 'line',
