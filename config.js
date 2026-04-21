@@ -71,14 +71,12 @@ var config = {
                      opacity: 1
                 },
                 {
-                    layer: 'PointResist',
-                    opacity: 1
+
                 }
             ],
             onChapterExit: [
                 {
-                    layer: 'PointResist',
-                    opacity: 0
+
                 }
             ]
         },
