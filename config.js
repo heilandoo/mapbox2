@@ -73,9 +73,6 @@ var config = {
                 {
                     layer: 'PointResist',
                     opacity: 1,
-                    paint: {
-                        'icon-halo-color': '#d5e461'
-                    }
                 }
             ],
             onChapterExit: [
