@@ -171,12 +171,16 @@ var config = {
                 },
                 {
                      layer: 'strokes',
-                     opacity: 1,
+                     opacity: 0,
                      duration: 300
                 },
-                                {
+                {
                      layer: 'reservoirsExtrLine',
                      opacity: 1
+                },
+                {
+                     layer: 'reservoirsExtrFill',
+                     opacity: 0.4
                 },
             ],
             onChapterExit: [
