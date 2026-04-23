@@ -156,29 +156,10 @@ var config = {
             image: '',
             description: 'Julio denounces energy colonialism in the peripheral regions of Europe. With Ecologistas en Acción Extremadura he says: "We produce energy for industrial centres all over Europe to power their economic growth. This is not new. We already had hydropower as the first wave of energy colonialism and nuclear power as the second wave." Conditions are different than in the Global South, he acknowledges, but processes and structures are the same.',
             location: {
-              center: [-6.809950, 39.77208],
-              zoom: 12,
-              pitch: 71,
-              bearing: 76
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-        },
-        {
-            id: 'hydrogen-colonialism2',
-            alignment: 'left',
-            hidden: false,
-            title: 'The historical continuities of energy colonialism in Spain',
-            image: '',
-            description: 'Energy colonialism in Extremadura comes in waves. In the 1960s, large reservoirs were built along the Tagus River, officially for irrigation but mainly to generate hydropower. This was the first wave, with energy produced in the region and sent elsewhere. Then came the second. Under the Franco dictatorship, two nuclear reactors were built in Extremadura, with around 2000 megawatts of capacity. Again, energy was exported while the risks stayed local. Today, Extremadura produces far more energy than it consumes, yet remains economically marginalized. The pattern is clear: the region powers others, while the benefits leave and the costs remain.',
-            location: {
-                center: [-6.37464, 46.19577],
-                zoom: 4.4,
-                pitch: 30,
-                bearing: 67.26
+              center: [-6.28247, 39.686],
+              zoom: 8.7,
+              pitch: 50,
+              bearing: 104
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
@@ -211,6 +192,25 @@ var config = {
                      opacity: 0
                 },                
             ]
+        },
+        {
+            id: 'hydrogen-colonialism2',
+            alignment: 'left',
+            hidden: false,
+            title: 'The historical continuities of energy colonialism in Spain',
+            image: '',
+            description: 'Energy colonialism in Extremadura comes in waves. In the 1960s, large reservoirs were built along the Tagus River, officially for irrigation but mainly to generate hydropower. This was the first wave, with energy produced in the region and sent elsewhere. Then came the second. Under the Franco dictatorship, two nuclear reactors were built in Extremadura, with around 2000 megawatts of capacity. Again, energy was exported while the risks stayed local. Today, Extremadura produces far more energy than it consumes, yet remains economically marginalized. The pattern is clear: the region powers others, while the benefits leave and the costs remain.',
+            location: {
+                center: [-6.37464, 46.19577],
+                zoom: 4.4,
+                pitch: 41,
+                bearing: 67.26
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
         },
         {
             id: 'hydrogen-use',
