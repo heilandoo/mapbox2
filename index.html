@@ -381,6 +381,22 @@
                     }
                 });
             });
+            map.loadImage('./assets/rect_fill_strokes.png', (error, image) => {
+                if (error) throw error;
+        
+                if (!map.hasImage('diagonal-pattern')) {
+                    map.addImage('diagonal-pattern', image);
+                }
+                map.addLayer({
+                    id: 'strokes',
+                    type: 'fill',
+                    source: 'reservoirsExtr',
+                    paint: {
+                        'fill-pattern': 'diagonal-pattern',
+                        'fill-opacity': 1
+                    }
+                });
+            });
             map.addLayer({
                     id: 'damsExtr',
                     type: 'circle',
