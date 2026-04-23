@@ -421,7 +421,8 @@
                     }
                 });
             });
-            map.loadImage('./assets/radioactive.png', (error, image) => {
+           /*
+               map.loadImage('./assets/radioactive.png', (error, image) => {
                 if (error) throw error;
         
                 if (!map.hasImage('nuclear-icon')) {
@@ -441,8 +442,26 @@
                         'icon-opacity': 0 
                     }
                 });
-            });
+            });*/
             
+            map.addLayer({
+                id: 'nuclear-labels',
+                type: 'symbol',
+                source: 'nuclearExtr',
+                layout: {
+                    'text-field': ['get', 'label'],
+                    'text-size': 14,
+                    'text-anchor': 'top',
+                    'text-offset': [0, 1],
+                    'text-allow-overlap': true
+                },
+                paint: {
+                    'text-color': '#ffffff',
+                    'text-halo-color': '#000000',
+                    'text-halo-width': 1,
+                    'text-opacity': 0   // important for your storytelling setup
+                }
+            });
             map.addLayer({
                     id: 'damsExtr',
                     type: 'circle',
