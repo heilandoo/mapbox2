@@ -356,6 +356,14 @@
                     'type': 'geojson',
                     data : './data/embalses_extremadura.geojson'
             });
+            map.addSource('solarsExtr', {
+                    'type': 'geojson',
+                    data : './data/almaraz solar fields.geojson'
+            });
+            map.addSource('nuclearExtr', {
+                    'type': 'geojson',
+                    data : './data/almaraz nuclear_POINT.geojson'
+            });
             
             
                 // add the pipeline as layer to the map
@@ -397,6 +405,44 @@
                     }
                 });
             });
+            map.loadImage('./rect_fill_squares.png', (error, image) => {
+                if (error) throw error;
+        
+                if (!map.hasImage('square-pattern')) {
+                    map.addImage('square-pattern', image);
+                }
+                map.addLayer({
+                    id: 'squares',
+                    type: 'fill',
+                    source: 'solarsExtr',
+                    paint: {
+                        'fill-pattern': 'square-pattern',
+                        'fill-opacity': 1
+                    }
+                });
+            });
+            map.loadImage('./assets/nuclear_plant.png', (error, image) => {
+                if (error) throw error;
+        
+                if (!map.hasImage('nuclear-icon')) {
+                    map.addImage('nuclear-icon', image);
+                }
+                map.addLayer({
+                    id: 'nuclear',
+                    type: 'symbol',
+                    source: 'nuclearExtr',
+                    layout: {
+                        'icon-image': 'point-symbol',
+                        'icon-size': 0.6,
+                        'icon-anchor': 'bottom',
+                        'icon-allow-overlap': true
+                    },
+                    paint: {
+                        'icon-opacity': 0 
+                    }
+                });
+            });
+            
             map.addLayer({
                     id: 'damsExtr',
                     type: 'circle',
