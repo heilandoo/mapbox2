@@ -156,10 +156,10 @@ var config = {
             image: '',
             description: 'Julio denounces energy colonialism in the peripheral regions of Europe. With Ecologistas en Acción Extremadura he says: "We produce energy for industrial centres all over Europe to power their economic growth. This is not new. We already had hydropower as the first wave of energy colonialism and nuclear power as the second wave." Conditions are different than in the Global South, he acknowledges, but processes and structures are the same.',
             location: {
-              center: [0, 43.5],
-              zoom: 4.5,
-              pitch: 0,
-              bearing: 0
+              center: [-6.809950, 39.77208],
+              zoom: 12,
+              pitch: 71,
+              bearing: 76
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
