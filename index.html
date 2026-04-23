@@ -405,7 +405,7 @@
                     }
                 });
             });
-            map.loadImage('./rect_fill_squares.png', (error, image) => {
+            map.loadImage('./assets/rect_fill_squares.png', (error, image) => {
                 if (error) throw error;
         
                 if (!map.hasImage('square-pattern')) {
@@ -432,7 +432,7 @@
                     type: 'symbol',
                     source: 'nuclearExtr',
                     layout: {
-                        'icon-image': 'point-symbol',
+                        'icon-image': 'nuclear-icon',
                         'icon-size': 0.6,
                         'icon-anchor': 'bottom',
                         'icon-allow-overlap': true
