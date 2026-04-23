@@ -383,13 +383,12 @@
             });
             map.addLayer({
                     id: 'damsExtr',
-                    type: 'symbol',
+                    type: 'circle',
                     source: 'damsExtr',
                     layout: {
-                        'icon-image': 'dam',
-                        'icon-size': 0.4,
-                        'icon-anchor': 'bottom',
-                        'icon-allow-overlap': true
+                        'circle-radius': 5,
+                        'circle-color': '#3FB1CE',
+                        'circle-opacity': 0
                     },
                     paint: {
                         'icon-opacity': 0 
