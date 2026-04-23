@@ -89,7 +89,7 @@ var config = {
             image: './assets/IMG_3135.JPG',
             description: 'We met Paco in port of Xixón. Here, two pipelines of the network meet, a hydrogen storage is planned and an LNG-terminal for shipping gas exists. Paco from Ecoloxistes n’Aición d’Asturies criticises the oversized infrastructure for gas export here and all over the Iberian Peninsula. While locally produced hydrogen can be useful way to power heavy industries, the current development is pointing in the very opposite direction. This system does not rely on "hydrogen that is produced and used locally, close to where it is needed", it "mainly benefits major energy corporations, which are interested above all in expanding their own infrastructure networks", Paco says.',
             location: {
-              center: [-5.71677, 43.56260],
+              center: [-5.6798, 43.57472],
               zoom: 12.52,
               pitch: 70,
               bearing: 160.00
