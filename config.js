@@ -183,8 +183,34 @@ var config = {
             mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
+            onChapterEnter: [
+                {
+                     layer: 'damsExtr',
+                     opacity: 1
+                },
+                {
+                     layer: 'reservoirsExtrFill',
+                     opacity: 0.5
+                },
+                                {
+                     layer: 'reservoirsExtrLine',
+                     opacity: 1
+                },
+            ],
+            onChapterExit: [
+                {
+                     layer: 'damsExtr',
+                     opacity: 0
+                },
+                {
+                     layer: 'reservoirsExtrFill',
+                     opacity: 0
+                },
+                                {
+                     layer: 'reservoirsExtrLine',
+                     opacity: 0
+                },                
+            ]
         },
         {
             id: 'hydrogen-use',
