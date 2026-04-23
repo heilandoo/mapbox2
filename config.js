@@ -171,7 +171,7 @@ var config = {
                 },
                 {
                      layer: 'strokes',
-                     opacity: 0,
+                     opacity: 1,
                      duration: 300
                 },
                 {
@@ -179,8 +179,16 @@ var config = {
                      opacity: 1
                 },
                 {
+                     layer: 'squares',
+                     opacity: 1
+                },
+                {
                      layer: 'reservoirsExtrFill',
-                     opacity: 0.4
+                     opacity: 0
+                },
+                {
+                     layer: 'nuclear',
+                     opacity: 1
                 },
             ],
             onChapterExit: [
@@ -195,7 +203,15 @@ var config = {
                                 {
                      layer: 'reservoirsExtrLine',
                      opacity: 0
-                },                
+                },
+                                {
+                     layer: 'squares',
+                     opacity: 0
+                },
+                {
+                     layer: 'nuclear',
+                     opacity: 0
+                },
             ]
         },
         {
