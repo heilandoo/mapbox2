@@ -182,12 +182,12 @@ var config = {
                      layer: 'squares',
                      opacity: 1
                 },
-                {
+               /* {
                      layer: 'reservoirsExtrFill',
                      opacity: 0
-                },
+                },*/
                 {
-                     layer: 'nuclear',
+                     layer: 'nuclear-labels',
                      opacity: 1
                 },
             ],
@@ -209,7 +209,7 @@ var config = {
                      opacity: 0
                 },
                 {
-                     layer: 'nuclear',
+                     layer: 'nuclear-labels',
                      opacity: 0
                 },
             ]
