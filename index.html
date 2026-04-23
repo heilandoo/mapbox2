@@ -421,6 +421,27 @@
                     }
                 });
             });
+            map.loadImage('./assets/radioactive.png', (error, image) => {
+                if (error) throw error;
+        
+                if (!map.hasImage('nuclear-icon')) {
+                    map.addImage('nuclear-icon', image);
+                }
+                map.addLayer({
+                    id: 'nuclear',
+                    type: 'symbol',
+                    source: 'nuclearExtr',
+                    layout: {
+                        'icon-image': 'nuclear-icon',
+                        'icon-size': 0.6,
+                        'icon-anchor': 'bottom',
+                        'icon-allow-overlap': true
+                    },
+                    paint: {
+                        'icon-opacity': 0 
+                    }
+                });
+            });
             
             map.addLayer({
                     id: 'damsExtr',
@@ -566,28 +587,6 @@
                     'line-width': 1,
                     'line-opacity': 0
                 }
-            });
-            
-            map.loadImage('./assets/radioactive.png', (error, image) => {
-                if (error) throw error;
-        
-                if (!map.hasImage('nuclear-icon')) {
-                    map.addImage('nuclear-icon', image);
-                }
-                map.addLayer({
-                    id: 'nuclear',
-                    type: 'symbol',
-                    source: 'nuclearExtr',
-                    layout: {
-                        'icon-image': 'nuclear-icon',
-                        'icon-size': 0.6,
-                        'icon-anchor': 'bottom',
-                        'icon-allow-overlap': true
-                    },
-                    paint: {
-                        'icon-opacity': 0 
-                    }
-                });
             });
             
         
