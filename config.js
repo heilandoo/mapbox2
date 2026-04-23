@@ -119,8 +119,18 @@ var config = {
             mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
+            onChapterEnter: [
+                {
+                     layer: 'LaMudarraLines',
+                     opacity: 1
+                },
+            ],
+            onChapterExit: [
+                {
+                     layer: 'LaMudarraLines',
+                     opacity: 0
+                },
+            ]
         },
         {
             id: 'pipeline-impact',
