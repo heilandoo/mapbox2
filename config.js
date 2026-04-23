@@ -167,7 +167,7 @@ var config = {
             onChapterEnter: [
                 {
                      layer: 'damsExtr',
-                     opacity: 1
+                     opacity: 0
                 },
                 {
                      layer: 'strokes',
