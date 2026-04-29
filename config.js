@@ -14,10 +14,10 @@ var config = {
     theme: 'dark',
     use3dTerrain: false, //set true for enabling 3D maps.
     auto: false,
-    /*title: 'Stories of resistance along the H2Med pipeline',
+    title: 'Stories of resistance along the H2Med pipeline',
     subtitle: 'Why communities are resisting, what they think of the future of energy, how they percieve the impacts.',
     byline: 'by kollektiv gazpacho',
-    footer: 'Source: source citations, etc. <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',*/
+    footer: 'Source: source citations, etc. <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
     chapters: [
         {
             id: 'pipeline-intro',
