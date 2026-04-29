@@ -114,29 +114,62 @@
             background-color: #3a2c67;
         }
 
-        .step {
-            padding: 30px;
-            line-height: 1.7;
-            font-size: 15px;
-            border-radius: 4px;
-            opacity: 0.4;
-            margin-bottom: 50vh;
+.step {
+    padding: 0;
+    margin-bottom: 50vh;
+    opacity: 0.45;
+    transition: all 0.4s ease;
+}
 
-        }
+.step > div {
+    padding: 32px 34px;
+    border-radius: 18px;
 
-        .step.active {
-            opacity: 0.9;
-        }
+    background: rgba(58, 44, 103, 0.82);
+    backdrop-filter: blur(10px);
 
-        .step div {
-            padding: 25px 50px;
-            line-height: 25px;
-            font-size: 13px;
-        }
+    box-shadow:
+        0 10px 30px rgba(0,0,0,0.18),
+        0 2px 10px rgba(0,0,0,0.12);
 
-        .step img {
-            width: 100%;
-        }
+    color: #ffffff;
+    border: 1px solid rgba(255,255,255,0.08);
+
+    line-height: 1.75;
+    font-size: 15px;
+}
+
+.step.active {
+    opacity: 1;
+    transform: translateY(-4px) scale(1.015);
+}
+
+.step.active > div {
+    box-shadow:
+        0 18px 45px rgba(0,0,0,0.28),
+        0 4px 14px rgba(0,0,0,0.18);
+}
+
+.step h3 {
+    margin-top: 0;
+    margin-bottom: 18px;
+
+    font-size: 24px;
+    letter-spacing: 0.04em;
+    color: #d5e461;
+}
+
+.step p {
+    margin: 0;
+    font-size: 15px;
+    color: rgba(255,255,255,0.92);
+}
+
+.step img {
+    width: 100%;
+    border-radius: 12px;
+    margin-top: 18px;
+}
 
         @media (max-width: 750px) {
 
