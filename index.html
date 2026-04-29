@@ -129,9 +129,14 @@
         }
 
         .step.active {
-            opacity: 0.96;
-            transform: translateY(-2px);
+            opacity: 1;
+            transform: translateY(-6px);
             transition: all 0.35s ease;
+        }
+
+        .step.active div {
+            background: rgba(58, 44, 103, 0.85);
+            box-shadow: 0 28px 70px rgba(0,0,0,0.35);
         }
 
         .step div {
