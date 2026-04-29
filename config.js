@@ -35,7 +35,12 @@ var config = {
             mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
-            onChapterEnter: [],
+            onChapterEnter: [
+                {
+                    layer: 'PointResist',
+                    opacity: 0,
+                }
+            ],
             onChapterExit: [
                 // {
                 //     layer: 'layer-name',
@@ -51,8 +56,8 @@ var config = {
             // image: './assets/washington-dc.jpg',
             description: 'The planned H2Med pipeline is supposed to transport energy from the Iberian Peninsula to Western Germany. In the name of the "green" transition the pipeline should export large amounts of hydrogen over more then 2000km. But this mega-infrastructure cannot fulfill the promises that are made. What the situation looks like: <br>large-scale energy export is prioritised over efficient local use tied to necessity, <br>industrial hydrogen production increases conflict over land-use, water resources and renewable energy, <br>hydrogen allows the fossil industry to prolong their business with fossil fuels through mixing both gases <br>This map tells stories of people and collectives who resist. They resist by debunking the myths, sabotaging the pipelines, and building alternative futures. Scroll down and follow along!',
             location: {
-                center: [-2.59037, 40.3784],
-                zoom: 5.7,
+                center: [-6, 40.57],
+                zoom: 5.1,
                 pitch: 0,
                 bearing: 0
                 // flyTo additional controls-
@@ -91,7 +96,7 @@ var config = {
             location: {
               center: [-5.6798, 43.57472],
               zoom: 12.52,
-              pitch: 70,
+              pitch: 55,
               bearing: 160.00
             },
             mapAnimation: 'flyTo',
@@ -137,7 +142,7 @@ var config = {
             image: '',
             description: 'Jenaro is one of the few young people who returned to his village in "España vacía" (Empty Spain). After leaving his place to study in bigger cities, he now works with his home soils to grow food, produce some wine and keep the rural style of living alive. But a fossil gas pipeline already passes right below his village and the H2Med might follow soon. And with it plans to industrially produce natural gas and hydrogen in places where he now produces food for industries thousands of kilometers away. Listen to his emotional testimony and how he organises against biogas in the province of Zamora!',
             location: {
-                center: [-5.70679, 41.34235],
+                center: [-5.684657899515735, 41.36324204229561],
                 zoom: 13,
                 pitch: 30,
                 bearing: 20
@@ -237,12 +242,12 @@ var config = {
             id: 'hydrogen-use',
             alignment: 'left',
             hidden: false,
-            title: 'ThyssenKrupp steel and weapon manufacturing, Duisburg, Western Germany',
+            title: 'ThyssenKrupp steel and weapon manufacturing, Duisburg',
             image: '',
             description: 'Hydrogen from the south is not just about climate goals. It is set to flow north into industrial hubs like Duisburg, where companies like ThyssenKrupp plan to use it to decarbonise steel production. While this may reduce emissions, it also sustains energy-intensive industries that depend on continuous growth. We need some steel for public infrastructure or hospitals. But at the same time, steel remains a key material for automotive production, and military equipment. As Europe increases military spending, hydrogen-fueled steel production is becoming part of a broader push to secure resources for rearmament. <br>Hydrogen can play a role in decarbonising essential sectors. But current plans go far beyond that. The scale of proposed infrastructure reflects not just climate ambitions, but also industrial expansion and growing militarisation under the label of a “green” transition.',
             location: {
                 center: [6.69502, 51.49364],
-                zoom: 12.7,
+                zoom: 12.0,
                 pitch: 33,
                 bearing: 0
             },
@@ -251,7 +256,7 @@ var config = {
             callback: '',
             onChapterEnter: [],
             onChapterExit: []
-        },
+            },
         {
             id: 'resistance-grow',
             alignment: 'right',
@@ -260,10 +265,10 @@ var config = {
             image: '',
             description: "Along the pipeline, communities resist these energy colonial processes. They don't want to be a self-service store for Europe, they don't want a pipeline labelled as green while most of what runs through it, is fossil fuels. They are in favor of a transition towards renewable energy sources. But they demand that this transition keeps in mind the needs of rural populations and is not only governed by the fossil industry to keep up a business model that ruins people and planet.",
             location: {
-              center: [-2.59037, 40.3784],
-              zoom: 5.7,
-              pitch: 0,
-              bearing: 0
+                center: [-6, 40.57],
+                zoom: 5.1,
+                pitch: 0,
+                bearing: 0
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
@@ -279,7 +284,7 @@ var config = {
             image: '',
             description: "What kind of energy transition do we want? We want an energy transition that is more social, fairer and more in line with people's needs. Or do we really want a transition that is based on large companies' interests their desires and their needs, which aren't ours at all? <br>'The solutions we see are energy communities. But right now, much of our work is about defending territory, because there are so many projects we need to stop. It is frustrating that so much of our energy in activism goes into resisting these developments, when we could actually be building the futures we want. That creates a lot of anger. But at the same time, I still think there is hope.'",
             location: {
-                center: [-6.26011, 43.56791],
+                center: [-6.444266284280316, 43.547253298255548],
                 zoom: 12,
                 pitch: 0,
                 bearing: 0
