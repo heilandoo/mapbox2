@@ -269,10 +269,11 @@
         var story = document.getElementById('story');
         var features = document.createElement('div');
         features.setAttribute('id', 'features');
-
+        
+        if (false) {
         var header = document.createElement('div');
 
-        if (config.title) {
+        /*if (config.title) {
             var titleText = document.createElement('h1');
             titleText.innerText = config.title;
             header.appendChild(titleText);
@@ -294,7 +295,7 @@
             header.classList.add(config.theme);
             header.setAttribute('id', 'header');
             story.appendChild(header);
-        }
+        }*/
 
         config.chapters.forEach((record, idx) => {
             var container = document.createElement('div');
@@ -332,10 +333,10 @@
             }
             features.appendChild(container);
         });
-
+        }
         story.appendChild(features);
 
-        var footer = document.createElement('div');
+        /*var footer = document.createElement('div');
 
         if (config.footer) {
             var footerText = document.createElement('p');
@@ -347,7 +348,7 @@
             footer.classList.add(config.theme);
             footer.setAttribute('id', 'footer');
             story.appendChild(footer);
-        }
+        }*/
 
         mapboxgl.accessToken = config.accessToken;
 
