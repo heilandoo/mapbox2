@@ -313,6 +313,18 @@
                 chapter.appendChild(image);
             }
 
+            if (record.video) {
+                var iframe = document.createElement('iframe');
+                iframe.src = record.video;
+                iframe.width = "100%";
+                iframe.height = "315";
+                iframe.style.border = "none";
+                iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
+                iframe.allowFullscreen = true;
+            
+                chapter.appendChild(iframe);
+            }
+
             if (record.description) {
                 var story = document.createElement('p');
                 story.innerHTML = record.description;
