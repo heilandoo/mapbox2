@@ -91,7 +91,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Export over local use',
-            video: 'https://tube.xy-space.de/videos/embed/9miGr4SKwABhae1Q5FD9Ge',
+            video: 'https://tube.xy-space.de/videos/embed/9miGr4SKwABhae1Q5FD9Ge?controls=1&title=0&peertubeLink=0',
             //image: './assets/IMG_3135.JPG',
             description: 'We met Paco in port of Xixón. Here, two pipelines of the network meet, a hydrogen storage is planned and an LNG-terminal for shipping gas exists. Paco from Ecoloxistes n’Aición d’Asturies criticises the oversized infrastructure for gas export here and all over the Iberian Peninsula. While locally produced hydrogen can be useful way to power heavy industries, the current development is pointing in the very opposite direction. This system does not rely on "hydrogen that is produced and used locally, close to where it is needed", it "mainly benefits major energy corporations, which are interested above all in expanding their own infrastructure networks", Paco says.',
             location: {
