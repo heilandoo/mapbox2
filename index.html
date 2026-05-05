@@ -139,7 +139,7 @@
             box-shadow: 0 28px 70px rgba(0,0,0,0.35);
         }
 
-        .step > div {
+        .step div {
             position: relative;
         
             padding: 32px 36px;
@@ -189,16 +189,11 @@
             width: 100%;
         }
         
-        .video-wrapper {
-            width: 100%;
-            max-width: 700px;
-            margin: 20px auto;
-        }
-        
-        .video-wrapper iframe {
+        .step iframe {
             width: 100%;
             aspect-ratio: 16 / 9;
             border: none;
+            margin-top: 15px;
             border-radius: 12px;
         }
                         
@@ -326,18 +321,12 @@
             }
 
             if (record.video) {
-                var wrapper = document.createElement('div');
-                wrapper.classList.add('video-wrapper');
-            
                 var iframe = document.createElement('iframe');
+                iframe.src = record.video;
+                iframe.loading = "lazy";
+                iframe.allowFullscreen = true;
             
-                iframe.src = record.video + "?autoplay=0&muted=0&controls=1";
-                iframe.setAttribute("frameborder", "0");
-                iframe.setAttribute("allowfullscreen", "");
-                iframe.setAttribute("loading", "lazy");
-            
-                wrapper.appendChild(iframe);
-                chapter.appendChild(wrapper);
+                chapter.appendChild(iframe);
             }
 
             if (record.description) {
