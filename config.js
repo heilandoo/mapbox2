@@ -90,7 +90,7 @@ var config = {
             id: 'pipeline-xixon',
             alignment: 'left',
             hidden: false,
-            title: 'Export over local use',
+            title: 'Export over local use?',
             video: 'https://tube.xy-space.de/videos/embed/9miGr4SKwABhae1Q5FD9Ge?controls=1&title=1&peertubeLink=1',
             //image: './assets/IMG_3135.JPG',
             description: 'We met Paco in port of Xixón. Here, two pipelines of the network meet, a hydrogen storage is planned and an LNG-terminal for shipping gas exists. Paco from Ecoloxistes n’Aición d’Asturies criticises the oversized infrastructure for gas export here and all over the Iberian Peninsula. While locally produced hydrogen can be useful way to power heavy industries, the current development is pointing in the very opposite direction. This system does not rely on "hydrogen that is produced and used locally, close to where it is needed", it "mainly benefits major energy corporations, which are interested above all in expanding their own infrastructure networks", Paco says.',
@@ -110,10 +110,10 @@ var config = {
             id: 'transition-fail1',
             alignment: 'right',
             hidden: false,
-            title: '"It is not enough to produce more energy, we need more efficient systems that need less energy."',
+            title: 'The transition we desire',
             video: 'https://tube.xy-space.de/videos/embed/31wTrsTGxwAoth9Srev5uC?controls=1&title=1&peertubeLink=1',
             image: '',
-            description: 'Julio feels the current transition leaves behind rural communities in the peripheries and only prioritises the industrial and urban centres and their ever increasing hunger for energy. We met the collective of SOS Montes Torozos in La Mudarra, a village next two a huge substation with the same name. Substations are central nodes for the energy transition. Their location and connectivity to the grid has a huge impact on where power generators, powering hydrogen production, are built. And these nodes already exist based on the old energy system of fossil energy, hydro- and nuclear power. Thus, hydrogen production infrastructure uses the existing network, reinforcing spatial patterns of injustice, leaving behind rural areas.',
+            description: 'Cesar feels the current transition leaves behind rural communities in the peripheries and prioritises the industrial and urban centres and their ever increasing hunger for energy. We met the collective SOS Montes Torozos in La Mudarra, a village next to a large substation. Substations are key nodes in the energy system, shaping where energy and hydrogen infrastructure is built due to their grid connectivity. Built for fossil, hydro, and nuclear systems, they are now reused for hydrogen, reinforcing existing spatial inequalities and further marginalising rural areas.',
             location: {
                 center: [-4.93758, 41.78880],
                 zoom: 13.5,
@@ -143,7 +143,7 @@ var config = {
             title: 'Energy export over food production',
             video: 'https://tube.xy-space.de/videos/embed/agaxTLmrsRKxViHJqPpMDU?controls=1&title=1&peertubeLink=1',
             image: '',
-            description: 'Jenaro is one of the few young people who returned to his village in "España vacía" (Empty Spain). After leaving his place to study in bigger cities, he now works with his home soils to grow food, produce some wine and keep the rural style of living alive. But a fossil gas pipeline already passes right below his village and the H2Med might follow soon. And with it plans to industrially produce natural gas and hydrogen in places where he now produces food for industries thousands of kilometers away. Listen to his emotional testimony and how he organises against biogas in the province of Zamora!',
+            description: 'Jenaro is one of the few young people who returned to his village in "España vaciada" (emptied Spain). After leaving his place to study, he now works with his home soils to produce food, keeping the rural style of living alive. But a fossil gas pipeline already passes right below his village and the H2Med might follow soon. Soon natural gas and hydrogen might be produced in places where he now grows food for his region. Listen to his emotional testimony and how he organises against biogas in the province of Zamora!',
             location: {
                 center: [-5.684657899515735, 41.36324204229561],
                 zoom: 13,
@@ -197,7 +197,7 @@ var config = {
                 },*/
                 {
                      layer: 'nuclear-labels',
-                     opacity: 1
+                     opacity: 0
                 },
             ],
             onChapterExit: [
@@ -229,7 +229,7 @@ var config = {
             hidden: false,
             title: 'The historical continuities of energy colonialism in Spain',
             image: '',
-            description: 'Energy colonialism in Extremadura comes in waves. In the 1960s, large reservoirs were built along the Tajo River, officially for irrigation but mainly to generate hydropower. This was the first wave, with energy produced in the region and sent elsewhere. Then came the second. Under the Franco dictatorship, two nuclear reactors were built in Extremadura, with around 2000 megawatts of capacity. Again, energy was exported while the risks stayed local. Today, Extremadura produces far more energy than it consumes, yet remains economically marginalized. The pattern is clear: the region powers others, while the benefits leave and the costs remain.',
+            description: 'Energy colonialism in Extremadura comes in waves. In the 1960s, large reservoirs were built along the Tajo River, officially for irrigation but mainly to generate hydropower. This was the first wave in which energy produced in the region was sent elsewhere. The second wave: under the Franco dictatorship, two nuclear reactors were built in Extremadura, with around 2000 megawatts of capacity. Again, energy was exported while the risks stayed local. Today, Extremadura produces six times more energy than it consumes, yet remains economically marginalized. The pattern is clear: the region powers others, while the benefits leave and the costs remain.',
             location: {
                 center: [-6.37464, 46.19577],
                 zoom: 4.4,
@@ -248,7 +248,7 @@ var config = {
             hidden: false,
             title: 'ThyssenKrupp steel and weapon manufacturing, Duisburg',
             image: '',
-            description: 'Hydrogen from the south is not just about climate goals. It is set to flow north into industrial hubs like Duisburg, where companies like ThyssenKrupp plan to use it to decarbonise steel production. While this may reduce emissions, it also sustains energy-intensive industries that depend on continuous growth. We need some steel for public infrastructure or hospitals. But at the same time, steel remains a key material for automotive production, and military equipment. As Europe increases military spending, hydrogen-fueled steel production is becoming part of a broader push to secure resources for rearmament. <br>Hydrogen can play a role in decarbonising essential sectors. But current plans go far beyond that. The scale of proposed infrastructure reflects not just climate ambitions, but also industrial expansion and growing militarisation under the label of a “green” transition.',
+            description: 'Hydrogen from the south is not just about climate goals. It is set to flow north into industrial hubs like the Ruhr area, where companies like ThyssenKrupp plan to use it for "green" steel. While this may reduce emissions, it also sustains energy-intensive industries that depend on continuous growth. We need some steel for public infrastructure or hospitals. But at the same time, steel remains a key material for automotive production, and military equipment. As Europe increases military spending, hydrogen-fueled steel production is becoming part of a broader push to secure resources for rearmament. <br>Hydrogen can play a role in decarbonising essential sectors. But current plans go far beyond that. The scale of proposed infrastructure reflects not just climate ambitions, but also industrial expansion and growing militarisation under the label of a “green” transition.',
             location: {
                 center: [6.69502, 51.49364],
                 zoom: 12.0,
@@ -268,7 +268,7 @@ var config = {
             title: 'Resistance along the pipeline grows',
             video: 'https://tube.xy-space.de/videos/embed/2vrw4jUZ5MbBM9GnDqW2To?controls=1&title=1&peertubeLink=1',
             image: '',
-            description: "Along the pipeline, communities resist these energy colonial processes. They don't want to be a self-service store for Europe, they don't want a pipeline labelled as green while most of what runs through it, is fossil fuels. They are in favor of a transition towards renewable energy sources. But they demand that this transition keeps in mind the needs of rural populations and is not only governed by the fossil industry to keep up a business model that ruins people and planet.",
+            description: "Along the pipeline, communities resist these energy colonial processes. They don't want to be a self-service store for Europe, they don't want a pipeline labelled as green while most of what runs through it, is of fossil origin. They are in favor of a transition towards renewable energy sources. But they demand that this transition keeps in mind the needs of rural populations and is not only governed by the fossil industry to keep up a business model that ruins people and planet.",
             location: {
                 center: [-6, 40.57],
                 zoom: 5.1,
@@ -288,7 +288,7 @@ var config = {
             title: 'Alternatives to this mess exist',
             video: 'https://tube.xy-space.de/videos/embed/xdq9zpFR3hAmQH4CwwGSWs?controls=1&title=1&peertubeLink=1',
             image: '',
-            description: "What kind of energy transition do we want? We want an energy transition that is more social, fairer and more in line with people's needs. Or do we really want a transition that is based on large companies' interests their desires and their needs, which aren't ours at all? <br>'The solutions we see are energy communities. But right now, much of our work is about defending territory, because there are so many projects we need to stop. It is frustrating that so much of our energy in activism goes into resisting these developments, when we could actually be building the futures we want. That creates a lot of anger. But at the same time, I still think there is hope.'",
+            description: "The solutions we see are energy communities. But right now, much of our work is about defending territory, because there are so many projects we need to stop. It is frustrating that so much of our energy in activism goes into resisting these developments, when we could actually be building the futures we want. That creates a lot of anger. But at the same time, I still think there is hope.'",
             location: {
                 center: [-6.444266284280316, 43.547253298255548],
                 zoom: 12,
