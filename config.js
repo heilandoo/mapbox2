@@ -91,7 +91,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Export over local use',
-            video: 'https://tube.xy-space.de/videos/embed/9miGr4SKwABhae1Q5FD9Ge?controls=1&title=0&peertubeLink=0',
+            video: 'https://tube.xy-space.de/videos/embed/9miGr4SKwABhae1Q5FD9Ge?controls=1&title=1&peertubeLink=1',
             //image: './assets/IMG_3135.JPG',
             description: 'We met Paco in port of Xixón. Here, two pipelines of the network meet, a hydrogen storage is planned and an LNG-terminal for shipping gas exists. Paco from Ecoloxistes n’Aición d’Asturies criticises the oversized infrastructure for gas export here and all over the Iberian Peninsula. While locally produced hydrogen can be useful way to power heavy industries, the current development is pointing in the very opposite direction. This system does not rely on "hydrogen that is produced and used locally, close to where it is needed", it "mainly benefits major energy corporations, which are interested above all in expanding their own infrastructure networks", Paco says.',
             location: {
@@ -111,6 +111,7 @@ var config = {
             alignment: 'right',
             hidden: false,
             title: '"It is not enough to produce more energy, we need more efficient systems that need less energy."',
+            video: 'https://tube.xy-space.de/videos/embed/31wTrsTGxwAoth9Srev5uC?controls=1&title=1&peertubeLink=1',
             image: '',
             description: 'Julio feels the current transition leaves behind rural communities in the peripheries and only prioritises the industrial and urban centres and their ever increasing hunger for energy. We met the collective of SOS Montes Torozos in La Mudarra, a village next two a huge substation with the same name. Substations are central nodes for the energy transition. Their location and connectivity to the grid has a huge impact on where power generators, powering hydrogen production, are built. And these nodes already exist based on the old energy system of fossil energy, hydro- and nuclear power. Thus, hydrogen production infrastructure uses the existing network, reinforcing spatial patterns of injustice, leaving behind rural areas.',
             location: {
@@ -140,6 +141,7 @@ var config = {
             alignment: 'center',
             hidden: false,
             title: 'Energy export over food production',
+            video: 'https://tube.xy-space.de/videos/embed/agaxTLmrsRKxViHJqPpMDU?controls=1&title=1&peertubeLink=1',
             image: '',
             description: 'Jenaro is one of the few young people who returned to his village in "España vacía" (Empty Spain). After leaving his place to study in bigger cities, he now works with his home soils to grow food, produce some wine and keep the rural style of living alive. But a fossil gas pipeline already passes right below his village and the H2Med might follow soon. And with it plans to industrially produce natural gas and hydrogen in places where he now produces food for industries thousands of kilometers away. Listen to his emotional testimony and how he organises against biogas in the province of Zamora!',
             location: {
@@ -159,6 +161,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: "Energy colonialism at Europe's edges",
+            video: 'https://tube.xy-space.de/videos/embed/ucKFDeM6udG8dNFnLbo9t5?controls=1&title=1&peertubeLink=1',
             image: '',
             description: 'Julio denounces energy colonialism in the peripheral regions of Europe. With Ecologistas en Acción Extremadura he says: "We produce energy for industrial centres all over Europe to power their economic growth. This is not new. We already had hydropower as the first wave of energy colonialism and nuclear power as the second wave." Conditions are different than in the Global South, he acknowledges, but processes and structures are the same.',
             location: {
@@ -226,7 +229,7 @@ var config = {
             hidden: false,
             title: 'The historical continuities of energy colonialism in Spain',
             image: '',
-            description: 'Energy colonialism in Extremadura comes in waves. In the 1960s, large reservoirs were built along the Tagus River, officially for irrigation but mainly to generate hydropower. This was the first wave, with energy produced in the region and sent elsewhere. Then came the second. Under the Franco dictatorship, two nuclear reactors were built in Extremadura, with around 2000 megawatts of capacity. Again, energy was exported while the risks stayed local. Today, Extremadura produces far more energy than it consumes, yet remains economically marginalized. The pattern is clear: the region powers others, while the benefits leave and the costs remain.',
+            description: 'Energy colonialism in Extremadura comes in waves. In the 1960s, large reservoirs were built along the Tajo River, officially for irrigation but mainly to generate hydropower. This was the first wave, with energy produced in the region and sent elsewhere. Then came the second. Under the Franco dictatorship, two nuclear reactors were built in Extremadura, with around 2000 megawatts of capacity. Again, energy was exported while the risks stayed local. Today, Extremadura produces far more energy than it consumes, yet remains economically marginalized. The pattern is clear: the region powers others, while the benefits leave and the costs remain.',
             location: {
                 center: [-6.37464, 46.19577],
                 zoom: 4.4,
@@ -263,6 +266,7 @@ var config = {
             alignment: 'right',
             hidden: false,
             title: 'Resistance along the pipeline grows',
+            video: 'https://tube.xy-space.de/videos/embed/2vrw4jUZ5MbBM9GnDqW2To?controls=1&title=1&peertubeLink=1',
             image: '',
             description: "Along the pipeline, communities resist these energy colonial processes. They don't want to be a self-service store for Europe, they don't want a pipeline labelled as green while most of what runs through it, is fossil fuels. They are in favor of a transition towards renewable energy sources. But they demand that this transition keeps in mind the needs of rural populations and is not only governed by the fossil industry to keep up a business model that ruins people and planet.",
             location: {
@@ -282,6 +286,7 @@ var config = {
             alignment: 'center',
             hidden: false,
             title: 'Alternatives to this mess exist',
+            video: 'https://tube.xy-space.de/videos/embed/xdq9zpFR3hAmQH4CwwGSWs?controls=1&title=1&peertubeLink=1',
             image: '',
             description: "What kind of energy transition do we want? We want an energy transition that is more social, fairer and more in line with people's needs. Or do we really want a transition that is based on large companies' interests their desires and their needs, which aren't ours at all? <br>'The solutions we see are energy communities. But right now, much of our work is about defending territory, because there are so many projects we need to stop. It is frustrating that so much of our energy in activism goes into resisting these developments, when we could actually be building the futures we want. That creates a lot of anger. But at the same time, I still think there is hope.'",
             location: {
