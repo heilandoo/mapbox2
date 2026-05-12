@@ -91,7 +91,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Export over local use?',
-            video: 'https://tube.xy-space.de/videos/embed/9miGr4SKwABhae1Q5FD9Ge?controls=1&title=1&peertubeLink=1',
+            video: 'https://tube.xy-space.de/videos/embed/9miGr4SKwABhae1Q5FD9Ge?controls=1&title=1&peertubeLink=0',
             //image: './assets/IMG_3135.JPG',
             description: 'We met Paco in port of Xixón. Here, two pipelines of the network meet, a hydrogen storage is planned and an LNG-terminal for shipping gas exists. Paco from Ecoloxistes n’Aición d’Asturies criticises the oversized infrastructure for gas export here and all over the Iberian Peninsula. While locally produced hydrogen can be useful way to power heavy industries, the current development is pointing in the very opposite direction. This system does not rely on "hydrogen that is produced and used locally, close to where it is needed", it "mainly benefits major energy corporations, which are interested above all in expanding their own infrastructure networks", Paco says.',
             location: {
@@ -141,7 +141,7 @@ var config = {
             alignment: 'center',
             hidden: false,
             title: 'Energy export over food production',
-            video: 'https://tube.xy-space.de/videos/embed/agaxTLmrsRKxViHJqPpMDU?controls=1&title=1&peertubeLink=1',
+            video: 'https://tube.xy-space.de/videos/embed/agaxTLmrsRKxViHJqPpMDU?controls=1&title=1&peertubeLink=0',
             image: '',
             description: 'Jenaro is one of the few young people who returned to his village in "España vaciada" (emptied Spain). After leaving his place to study, he now works with his home soils to produce food, keeping the rural style of living alive. But a fossil gas pipeline already passes right below his village and the H2Med might follow soon. Soon natural gas and hydrogen might be produced in places where he now grows food for his region. Listen to his emotional testimony and how he organises against biogas in the province of Zamora!',
             location: {
@@ -161,7 +161,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: "Energy colonialism at Europe's edges",
-            video: 'https://tube.xy-space.de/videos/embed/ucKFDeM6udG8dNFnLbo9t5?controls=1&title=1&peertubeLink=1',
+            video: 'https://tube.xy-space.de/videos/embed/ucKFDeM6udG8dNFnLbo9t5?controls=1&title=1&peertubeLink=0',
             image: '',
             description: 'Julio denounces energy colonialism in the peripheral regions of Europe. With Ecologistas en Acción Extremadura he says: "We produce energy for industrial centres all over Europe to power their economic growth. This is not new. We already had hydropower as the first wave of energy colonialism and nuclear power as the second wave." Conditions are different than in the Global South, he acknowledges, but processes and structures are the same.',
             location: {
@@ -266,7 +266,7 @@ var config = {
             alignment: 'right',
             hidden: false,
             title: 'Resistance along the pipeline grows',
-            video: 'https://tube.xy-space.de/videos/embed/2vrw4jUZ5MbBM9GnDqW2To?controls=1&title=1&peertubeLink=1',
+            video: 'https://tube.xy-space.de/videos/embed/2vrw4jUZ5MbBM9GnDqW2To?controls=1&title=1&peertubeLink=0',
             image: '',
             description: "Along the pipeline, communities resist these energy colonial processes. They don't want to be a self-service store for Europe, they don't want a pipeline labelled as green while most of what runs through it, is of fossil origin. They are in favor of a transition towards renewable energy sources. But they demand that this transition keeps in mind the needs of rural populations and is not only governed by the fossil industry to keep up a business model that ruins people and planet.",
             location: {
@@ -286,7 +286,7 @@ var config = {
             alignment: 'center',
             hidden: false,
             title: 'Alternatives to this mess exist',
-            video: 'https://tube.xy-space.de/videos/embed/xdq9zpFR3hAmQH4CwwGSWs?controls=1&title=1&peertubeLink=1',
+            video: 'https://tube.xy-space.de/videos/embed/xdq9zpFR3hAmQH4CwwGSWs?controls=1&title=1&peertubeLink=0',
             image: '',
             description: "The solutions we see are energy communities. But right now, much of our work is about defending territory, because there are so many projects we need to stop. It is frustrating that so much of our energy in activism goes into resisting these developments, when we could actually be building the futures we want. That creates a lot of anger. But at the same time, I still think there is hope.'",
             location: {
