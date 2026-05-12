@@ -333,7 +333,7 @@
                 iframe.src = record.video;
                 iframe.loading = "lazy";
                 iframe.allowFullscreen = true;
-            
+                iframe.setAttribute("allow", "fullscreen");
                 chapter.appendChild(iframe);
             }
 
