@@ -111,7 +111,7 @@ var config = {
             alignment: 'right',
             hidden: false,
             title: 'The transition we desire',
-            video: 'https://tube.xy-space.de/videos/embed/31wTrsTGxwAoth9Srev5uC?controls=1&title=1&peertubeLink=1',
+            video: 'https://tube.xy-space.de/videos/embed/tweKJVRoxXiBUNam1zWGTz?controls=1&title=1&peertubeLink=1',
             image: '',
             description: 'Cesar feels the current transition leaves behind rural communities in the peripheries and prioritises the industrial and urban centres and their ever increasing hunger for energy. We met the collective SOS Montes Torozos in La Mudarra, a village next to a large substation. Substations are key nodes in the energy system, shaping where energy and hydrogen infrastructure is built due to their grid connectivity. Built for fossil, hydro, and nuclear systems, they are now reused for hydrogen, reinforcing existing spatial inequalities and further marginalising rural areas.',
             location: {
