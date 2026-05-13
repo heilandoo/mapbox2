@@ -191,10 +191,10 @@ var config = {
                      layer: 'squares',
                      opacity: 1
                 },
-               /* {
-                     layer: 'reservoirsExtrFill',
-                     opacity: 0
-                },*/
+                {
+                     layer: 'solars-outline',
+                     opacity: 1
+                },
                 {
                      layer: 'nuclear-labels',
                      opacity: 0
@@ -215,6 +215,10 @@ var config = {
                 },
                                 {
                      layer: 'squares',
+                     opacity: 0
+                },
+                {
+                     layer: 'solars-outline',
                      opacity: 0
                 },
                 {
