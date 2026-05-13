@@ -536,6 +536,31 @@
                     }
                 });
             });*/
+
+            map.addLayer({
+                    id: 'squares',
+                    type: 'fill',
+                    source: 'solarsExtr',
+                    paint: {
+                        'fill-pattern': 'square-pattern',
+                        'fill-opacity': 0
+                    }
+                });
+
+            map.addLayer({
+                id: 'squares',
+                type: 'line',
+                source: 'solarsExtr',
+                layout: {
+                    'line-join': 'round',
+                    'line-cap': 'round'
+                },
+                paint: {
+                    'line-color': '#d5e461',
+                    'line-opacity': 0,
+                    'line-width': 0.8
+                 }
+            });
             
             map.addLayer({
                 id: 'nuclear-labels',
